@@ -7,7 +7,7 @@ import (
 	"project/internal/aggregator"
 	"project/internal/baseprice"
 	"project/internal/traffic"
-	w "project/internal/weather"
+	"project/internal/weather"
 )
 
 func main() {
@@ -18,7 +18,7 @@ func main() {
 	price := calculator.CalculatePrice(
 		baseprice.TripParameters{Distance: 8.5, Duration: 20},
 		time.Now(),
-		w.WeatherData{Condition: w.HeavyRain, WindSpeed: 10},
+		weather.WeatherData{Condition: weather.HeavyRain, WindSpeed: 10},
 		55.751244, 37.618423,
 	)
 
