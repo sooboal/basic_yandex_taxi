@@ -1,4 +1,4 @@
-package wether
+package weather
 
 type WeatherCondition int
 

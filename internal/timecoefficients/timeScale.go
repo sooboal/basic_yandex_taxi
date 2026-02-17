@@ -1,4 +1,4 @@
-package tempcoefficients
+package timecoefficients
 
 import "time"
 
